@@ -1,14 +1,28 @@
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { QUESTIONS } from '../data/questions.js'
-import { loadSettings } from '../utils/storage.js'
+import { apiGetSettings } from '../utils/api.js'
 
 const router = useRouter()
 const fullName = ref('')
 const error = ref('')
-const settings = loadSettings()
-const count = Math.min(settings.questionCount, QUESTIONS.length)
+const count = ref(30)
+const durationMin = ref(60)
+const loading = ref(true)
+
+onMounted(async () => {
+  try {
+    const s = await apiGetSettings()
+    count.value = Math.min(s.questionCount || 30, QUESTIONS.length)
+    durationMin.value = s.durationMin || 60
+  } catch (e) {
+    // fallback: if server unreachable use defaults
+    console.warn('settings fetch failed', e)
+  } finally {
+    loading.value = false
+  }
+})
 
 function start() {
   const name = fullName.value.trim().replace(/\s+/g, ' ').toUpperCase()
@@ -17,7 +31,8 @@ function start() {
     return
   }
   sessionStorage.setItem('ilhom_participant', name)
-  sessionStorage.setItem('ilhom_count', String(count))
+  sessionStorage.setItem('ilhom_count', String(count.value))
+  sessionStorage.setItem('ilhom_duration', String(durationMin.value))
   router.push('/test')
 }
 </script>
@@ -50,20 +65,21 @@ function start() {
           <div class="w-12 h-12 rounded-xl bg-white grid place-items-center shrink-0 shadow-sm">
             <svg class="w-6 h-6 text-brand-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg>
           </div>
-          <div>
-            <div class="text-xs text-slate-600 font-medium">Sizga beriladigan savollar soni</div>
-            <div class="text-2xl font-extrabold text-slate-800">{{ count }} ta savol</div>
+          <div class="flex-1">
+            <div class="text-xs text-slate-600 font-medium">Test hajmi</div>
+            <div class="text-base font-bold text-slate-800">{{ count }} ta savol · {{ durationMin }} daqiqa</div>
           </div>
         </div>
 
         <button
           @click="start"
-          class="w-full bg-gradient-to-r from-brand-600 to-indigo-600 text-white font-semibold py-3.5 rounded-xl shadow-lg hover:shadow-xl hover:brightness-110 transition"
-        >Testni boshlash →</button>
+          :disabled="loading"
+          class="w-full bg-gradient-to-r from-brand-600 to-indigo-600 text-white font-semibold py-3.5 rounded-xl shadow-lg hover:shadow-xl hover:brightness-110 transition disabled:opacity-60"
+        >{{ loading ? 'Yuklanmoqda…' : 'Testni boshlash →' }}</button>
 
         <div class="text-xs text-slate-600 border-t pt-3 space-y-1.5">
           <div class="flex items-start gap-2"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500 mt-1.5 shrink-0"></span><span>Savollar va javob variantlari har bir urinishda aralashtirilgan holda beriladi.</span></div>
-          <div class="flex items-start gap-2"><span class="w-1.5 h-1.5 rounded-full bg-blue-500 mt-1.5 shrink-0"></span><span>Test yakunida natija avtomatik saqlanadi va PDF shaklida yuklab olish imkoniyati mavjud.</span></div>
+          <div class="flex items-start gap-2"><span class="w-1.5 h-1.5 rounded-full bg-blue-500 mt-1.5 shrink-0"></span><span>Test yakunida natija serverda saqlanadi va PDF shaklida yuklab olish imkoniyati mavjud.</span></div>
           <div class="flex items-start gap-2"><span class="w-1.5 h-1.5 rounded-full bg-amber-500 mt-1.5 shrink-0"></span><span>Test davomida sahifani yangilamang — javoblar yo'qotilishi mumkin.</span></div>
         </div>
       </div>

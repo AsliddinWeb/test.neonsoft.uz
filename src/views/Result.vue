@@ -1,19 +1,29 @@
 <script setup>
-import { computed, ref } from 'vue'
+import { computed, ref, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
-import { findResult } from '../utils/storage.js'
+import { apiGetResult } from '../utils/api.js'
 import html2pdf from 'html2pdf.js'
 
 const props = defineProps({ id: String })
 const router = useRouter()
-const result = findResult(props.id)
+const result = ref(null)
+const loading = ref(true)
 const pdfRef = ref(null)
 const busy = ref(false)
 
-if (!result) router.replace('/')
+onMounted(async () => {
+  try {
+    result.value = await apiGetResult(props.id)
+  } catch (e) {
+    router.replace('/')
+    return
+  } finally {
+    loading.value = false
+  }
+})
 
 const grade = computed(() => {
-  const p = result?.percent ?? 0
+  const p = result.value?.percent ?? 0
   if (p >= 90) return { label: 'A\'LO DARAJADA', color: 'from-emerald-500 to-green-600' }
   if (p >= 75) return { label: 'YAXSHI NATIJA', color: 'from-blue-500 to-indigo-600' }
   if (p >= 60) return { label: 'QONIQARLI', color: 'from-amber-500 to-orange-500' }
@@ -21,8 +31,7 @@ const grade = computed(() => {
 })
 
 function fmt(iso) {
-  const d = new Date(iso)
-  return d.toLocaleString('uz-UZ', { year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' })
+  return new Date(iso).toLocaleString('uz-UZ', { year:'numeric', month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit' })
 }
 function fmtDur(sec) {
   const m = Math.floor(sec / 60), s = sec % 60
@@ -35,7 +44,7 @@ async function downloadPDF() {
   try {
     await html2pdf().set({
       margin: 10,
-      filename: `ILHOM_${result.name.replace(/\s+/g, '_')}_${result.percent}%.pdf`,
+      filename: `ILHOM_${result.value.name.replace(/\s+/g, '_')}_${result.value.percent}%.pdf`,
       image: { type: 'jpeg', quality: 0.95 },
       html2canvas: { scale: 2, useCORS: true },
       jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
@@ -48,8 +57,8 @@ async function downloadPDF() {
 </script>
 
 <template>
-  <div v-if="result" class="max-w-3xl mx-auto space-y-4">
-    <!-- Actions -->
+  <div v-if="loading" class="text-center text-slate-500 py-10">Yuklanmoqda…</div>
+  <div v-else-if="result" class="max-w-3xl mx-auto space-y-4">
     <div class="flex flex-wrap items-center justify-between gap-2">
       <router-link to="/" class="text-sm text-slate-600 hover:text-brand-600">← Bosh sahifaga qaytish</router-link>
       <div class="flex gap-2">
@@ -60,7 +69,6 @@ async function downloadPDF() {
       </div>
     </div>
 
-    <!-- PDF content -->
     <div ref="pdfRef" class="bg-white rounded-2xl shadow-xl border border-slate-200 overflow-hidden">
       <div :class="['bg-gradient-to-r text-white p-6', grade.color]">
         <div class="text-xs uppercase tracking-widest opacity-90">Xalqaro Innovatsion Universiteti</div>

@@ -2,13 +2,13 @@
 import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
 import { useRouter } from 'vue-router'
 import { QUESTIONS } from '../data/questions.js'
-import { shuffle, saveResult, uid, loadSettings } from '../utils/storage.js'
+import { shuffle, apiSaveResult, uid } from '../utils/api.js'
 
 const router = useRouter()
 const participant = sessionStorage.getItem('ilhom_participant') || ''
 const count = Number(sessionStorage.getItem('ilhom_count') || '30')
-const settings = loadSettings()
-const durationSec = Math.max(60, (settings.durationMin || 60) * 60)
+const durationMin = Number(sessionStorage.getItem('ilhom_duration') || '60')
+const durationSec = Math.max(60, durationMin * 60)
 
 if (!participant) router.replace('/')
 
@@ -26,6 +26,7 @@ const deadline = startedAt + durationSec * 1000
 const remaining = ref(durationSec)
 let timerId = null
 let finished = false
+const submitting = ref(false)
 
 function tick() {
   const secs = Math.max(0, Math.round((deadline - Date.now()) / 1000))
@@ -53,17 +54,17 @@ const current = computed(() => test[idx.value])
 const progress = computed(() => Math.round(((idx.value + 1) / test.length) * 100))
 const answeredCount = computed(() => answers.value.filter(a => a !== null).length)
 
-function pick(opt) {
-  answers.value[idx.value] = opt
-}
+function pick(opt) { answers.value[idx.value] = opt }
 function next() { if (idx.value < test.length - 1) idx.value++ }
 function prev() { if (idx.value > 0) idx.value-- }
 function jump(i) { idx.value = i }
 
-function finish(timeUp = false) {
+async function finish(timeUp = false) {
   if (finished && !timeUp) return
   finished = true
   clearInterval(timerId)
+  submitting.value = true
+
   const correctCount = test.reduce((acc, q, i) => acc + (answers.value[i] === q.correct ? 1 : 0), 0)
   const percent = Math.round((correctCount / test.length) * 100)
   const result = {
@@ -82,7 +83,16 @@ function finish(timeUp = false) {
       ok: answers.value[i] === q.correct
     }))
   }
-  saveResult(result)
+
+  try {
+    await apiSaveResult(result)
+  } catch (e) {
+    alert('Natijani serverga saqlashda xatolik: ' + e.message + '\nIltimos, administrator bilan bog\'laning.')
+    submitting.value = false
+    finished = false
+    return
+  }
+
   if (timeUp) alert('Belgilangan vaqt tugadi. Test avtomatik yakunlandi.')
   router.push(`/result/${result.id}`)
 }
@@ -90,18 +100,13 @@ function finish(timeUp = false) {
 function confirmFinish() {
   const unanswered = test.length - answeredCount.value
   let msg
-  if (unanswered === 0) {
-    msg = 'Barcha savollarga javob berdingiz. Testni yakunlaysizmi?'
-  } else if (unanswered === test.length) {
-    msg = 'Siz hali biron bir savolga javob bermadingiz. Shunga qaramay testni yakunlamoqchimisiz?'
-  } else {
-    msg = `Siz ${unanswered} ta savolga hali javob bermadingiz. Shunga qaramay testni yakunlamoqchimisiz?`
-  }
+  if (unanswered === 0) msg = 'Barcha savollarga javob berdingiz. Testni yakunlaysizmi?'
+  else if (unanswered === test.length) msg = 'Siz hali biron bir savolga javob bermadingiz. Shunga qaramay testni yakunlamoqchimisiz?'
+  else msg = `Siz ${unanswered} ta savolga hali javob bermadingiz. Shunga qaramay testni yakunlamoqchimisiz?`
   if (!confirm(msg)) return
-  finish()
+  finish(false)
 }
 
-// Warn before leaving
 function beforeUnload(e) { e.preventDefault(); e.returnValue = '' }
 onMounted(() => {
   window.addEventListener('beforeunload', beforeUnload)
@@ -158,27 +163,26 @@ onBeforeUnmount(() => {
       </div>
 
       <div class="flex items-center justify-between mt-6 pt-5 border-t">
-        <button @click="prev" :disabled="idx === 0"
+        <button @click="prev" :disabled="idx === 0 || submitting"
           class="px-4 py-2 rounded-lg border border-slate-300 text-slate-700 hover:bg-slate-50 disabled:opacity-40 disabled:cursor-not-allowed">
           ← Orqaga
         </button>
         <div class="flex gap-2">
-          <button v-if="idx < test.length - 1" @click="next"
-            class="px-5 py-2 rounded-lg bg-brand-600 text-white font-semibold hover:bg-brand-700 shadow">
+          <button v-if="idx < test.length - 1" @click="next" :disabled="submitting"
+            class="px-5 py-2 rounded-lg bg-brand-600 text-white font-semibold hover:bg-brand-700 shadow disabled:opacity-60">
             Keyingisi →
           </button>
-          <button @click="confirmFinish"
-            class="px-5 py-2 rounded-lg bg-emerald-600 text-white font-semibold hover:bg-emerald-700 shadow">
-            Testni yakunlash ✓
+          <button @click="confirmFinish" :disabled="submitting"
+            class="px-5 py-2 rounded-lg bg-emerald-600 text-white font-semibold hover:bg-emerald-700 shadow disabled:opacity-60">
+            {{ submitting ? 'Saqlanmoqda…' : 'Testni yakunlash ✓' }}
           </button>
         </div>
       </div>
     </div>
 
-    <!-- Nav grid -->
     <div class="bg-white rounded-2xl shadow border border-slate-200 p-4 mt-4">
       <div class="text-xs font-semibold text-slate-600 mb-2">Savollar bo'yicha harakatlanish</div>
-      <div class="grid grid-cols-10 md:grid-cols-15 gap-1.5" style="grid-template-columns: repeat(auto-fill, minmax(32px, 1fr))">
+      <div class="grid gap-1.5" style="grid-template-columns: repeat(auto-fill, minmax(32px, 1fr))">
         <button
           v-for="(_, i) in test"
           :key="i"

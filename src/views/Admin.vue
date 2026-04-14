@@ -1,51 +1,77 @@
 <script setup>
-import { ref, computed } from 'vue'
-import { loadResults, deleteResult, clearAll, loadSettings, saveSettings } from '../utils/storage.js'
+import { ref, computed, onMounted } from 'vue'
 import { QUESTIONS } from '../data/questions.js'
+import {
+  apiLogin, apiLogout, isAdmin,
+  apiGetSettings, apiSetSettings,
+  apiListResults, apiDeleteResult, apiClearResults
+} from '../utils/api.js'
 
-const ENV_USER = import.meta.env.VITE_ADMIN_USER || 'admin'
-const ENV_PASS = import.meta.env.VITE_ADMIN_PASS || 'ilhom2025'
-
-const authed = ref(sessionStorage.getItem('ilhom_admin') === '1')
+const authed = ref(isAdmin())
 const login = ref('')
 const pass = ref('')
 const err = ref('')
-const results = ref(loadResults())
-const settings = ref(loadSettings())
+const results = ref([])
+const settings = ref({ questionCount: 30, durationMin: 60 })
 const settingsMsg = ref('')
 const query = ref('')
+const loading = ref(false)
 const MAX_Q = QUESTIONS.length
 
-function doLogin() {
-  if (login.value.trim() === ENV_USER && pass.value === ENV_PASS) {
-    sessionStorage.setItem('ilhom_admin', '1')
-    authed.value = true
-    err.value = ''
-    pass.value = ''
-  } else {
+async function doLogin() {
+  err.value = ''
+  const ok = await apiLogin(login.value.trim(), pass.value)
+  if (!ok) {
     err.value = 'Kiritilgan login yoki parol noto\'g\'ri.'
+    return
   }
-}
-function logout() {
-  sessionStorage.removeItem('ilhom_admin')
-  authed.value = false
-}
-function refresh() { results.value = loadResults() }
-function remove(id) {
-  if (!confirm('Ushbu natijani butunlay o\'chirishni tasdiqlaysizmi?')) return
-  deleteResult(id); refresh()
-}
-function clearAllNow() {
-  if (!confirm('DIQQAT! Barcha ishtirokchilar natijalari o\'chiriladi. Davom etasizmi?')) return
-  clearAll(); refresh()
+  authed.value = true
+  pass.value = ''
+  await loadAll()
 }
 
-function saveSettingsNow() {
+function logout() {
+  apiLogout()
+  authed.value = false
+}
+
+async function loadAll() {
+  loading.value = true
+  try {
+    const [s, rs] = await Promise.all([apiGetSettings(), apiListResults()])
+    settings.value = { questionCount: s.questionCount || 30, durationMin: s.durationMin || 60 }
+    results.value = rs
+  } catch (e) {
+    if (e.status === 401) { authed.value = false; apiLogout() }
+    else console.error(e)
+  } finally {
+    loading.value = false
+  }
+}
+
+async function refresh() {
+  try { results.value = await apiListResults() } catch (e) { console.error(e) }
+}
+
+async function remove(id) {
+  if (!confirm('Ushbu natijani butunlay o\'chirishni tasdiqlaysizmi?')) return
+  await apiDeleteResult(id)
+  await refresh()
+}
+
+async function clearAllNow() {
+  if (!confirm('DIQQAT! Barcha ishtirokchilar natijalari o\'chiriladi. Davom etasizmi?')) return
+  await apiClearResults()
+  await refresh()
+}
+
+async function saveSettingsNow() {
   let n = Number(settings.value.questionCount) || 1
   n = Math.max(1, Math.min(MAX_Q, Math.floor(n)))
   let d = Number(settings.value.durationMin) || 1
   d = Math.max(1, Math.min(600, Math.floor(d)))
-  settings.value = saveSettings({ questionCount: n, durationMin: d })
+  await apiSetSettings({ questionCount: n, durationMin: d })
+  settings.value = { questionCount: n, durationMin: d }
   settingsMsg.value = `Muvaffaqiyatli saqlandi: ${n} ta savol, ${d} daqiqa vaqt.`
   setTimeout(() => settingsMsg.value = '', 3500)
 }
@@ -57,6 +83,7 @@ function exportJSON() {
   a.href = url; a.download = `ilhom_natijalar_${new Date().toISOString().slice(0,10)}.json`
   a.click(); URL.revokeObjectURL(url)
 }
+
 function exportCSV() {
   const rows = [['Ishtirokchi F.I.Sh.', 'Foiz', 'To\'g\'ri javoblar', 'Jami savollar', 'Sarflangan vaqt (soniya)', 'Topshirilgan sana']]
   results.value.forEach(r => rows.push([r.name, r.percent, r.correct, r.total, r.durationSec, r.at]))
@@ -85,6 +112,8 @@ const stats = computed(() => {
 function fmt(iso) {
   return new Date(iso).toLocaleString('uz-UZ', { year:'numeric', month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit' })
 }
+
+onMounted(() => { if (authed.value) loadAll() })
 </script>
 
 <template>
@@ -93,14 +122,10 @@ function fmt(iso) {
       <h2 class="text-lg font-bold text-slate-800 mb-1">Boshqaruv paneli</h2>
       <p class="text-xs text-slate-500 mb-4">Tizimga kirish faqat administrator uchun ruxsat etilgan.</p>
       <div class="space-y-2.5">
-        <input
-          v-model="login" type="text" placeholder="Login"
-          class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:border-brand-500 focus:ring-2 focus:ring-brand-100 outline-none"
-        />
-        <input
-          v-model="pass" @keyup.enter="doLogin" type="password" placeholder="Parol"
-          class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:border-brand-500 focus:ring-2 focus:ring-brand-100 outline-none"
-        />
+        <input v-model="login" type="text" placeholder="Login"
+          class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:border-brand-500 focus:ring-2 focus:ring-brand-100 outline-none" />
+        <input v-model="pass" @keyup.enter="doLogin" type="password" placeholder="Parol"
+          class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:border-brand-500 focus:ring-2 focus:ring-brand-100 outline-none" />
       </div>
       <p v-if="err" class="text-xs text-red-600 mt-1.5">{{ err }}</p>
       <button @click="doLogin" class="mt-3 w-full py-2.5 rounded-xl bg-brand-600 text-white font-semibold hover:bg-brand-700">Tizimga kirish</button>
@@ -108,23 +133,18 @@ function fmt(iso) {
   </div>
 
   <div v-else class="space-y-4">
-    <!-- Settings -->
     <div class="bg-white rounded-2xl border shadow-sm p-5">
       <div class="text-sm font-bold text-slate-800 mb-3">Test sozlamalari</div>
       <div class="grid md:grid-cols-2 gap-4">
         <div>
           <label class="block text-xs text-slate-600 font-medium mb-1.5">Savollar soni (eng ko'pi {{ MAX_Q }} ta)</label>
-          <input
-            v-model.number="settings.questionCount" type="number" min="1" :max="MAX_Q"
-            class="w-full px-3 py-2.5 rounded-lg border border-slate-300 focus:border-brand-500 outline-none text-sm"
-          />
+          <input v-model.number="settings.questionCount" type="number" min="1" :max="MAX_Q"
+            class="w-full px-3 py-2.5 rounded-lg border border-slate-300 focus:border-brand-500 outline-none text-sm" />
         </div>
         <div>
           <label class="block text-xs text-slate-600 font-medium mb-1.5">Test davomiyligi (daqiqa)</label>
-          <input
-            v-model.number="settings.durationMin" type="number" min="1" max="600"
-            class="w-full px-3 py-2.5 rounded-lg border border-slate-300 focus:border-brand-500 outline-none text-sm"
-          />
+          <input v-model.number="settings.durationMin" type="number" min="1" max="600"
+            class="w-full px-3 py-2.5 rounded-lg border border-slate-300 focus:border-brand-500 outline-none text-sm" />
         </div>
       </div>
       <div class="flex items-center gap-3 mt-4">
@@ -133,7 +153,6 @@ function fmt(iso) {
       </div>
     </div>
 
-    <!-- Stats -->
     <div class="grid grid-cols-3 gap-3">
       <div class="bg-white rounded-2xl border p-4 shadow-sm">
         <div class="text-xs text-slate-500 uppercase">Jami ishtirokchilar</div>
@@ -149,7 +168,6 @@ function fmt(iso) {
       </div>
     </div>
 
-    <!-- Results -->
     <div class="bg-white rounded-2xl border shadow-sm">
       <div class="p-4 flex flex-wrap items-center gap-2 border-b">
         <input v-model="query" placeholder="Ishtirokchini F.I.Sh. bo'yicha qidiring..." class="flex-1 min-w-[200px] px-3 py-2 rounded-lg border border-slate-300 focus:border-brand-500 outline-none text-sm" />
@@ -160,7 +178,8 @@ function fmt(iso) {
         <button @click="logout" class="px-3 py-2 rounded-lg border border-slate-300 hover:bg-slate-50 text-sm">Tizimdan chiqish</button>
       </div>
 
-      <div v-if="filtered.length === 0" class="p-8 text-center text-slate-500 text-sm">
+      <div v-if="loading" class="p-8 text-center text-slate-500 text-sm">Yuklanmoqda…</div>
+      <div v-else-if="filtered.length === 0" class="p-8 text-center text-slate-500 text-sm">
         Ayni paytda tizimda hech qanday natija saqlanmagan.
       </div>
 

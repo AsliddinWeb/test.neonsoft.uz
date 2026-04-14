@@ -43,3 +43,10 @@ lerna-debug.log*
 # Coverage
 coverage
 *.lcov
+
+# Database
+data/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
