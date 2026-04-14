@@ -1,0 +1,364 @@
+“ILHOM” mukofoti uchun test
+
+№	Test topshirig‘i	A*	B	C	D
+1.	Aruz qanday she’riyatning vazni?	 *Mumtoz 	Modernistik	Oq she’rning	realistik
+2.	“Adabiyotshunoslik lug‘ati” asari  mualliflari?	*D.Quronov va boshqalar	Sh.Rizaev va boshqalar	B.Karimov va boshqalar	N.Karimov va boshqalar
+3.	Istiqlol davrida qaysi ijodkorlar nomi oqlanib,asarlari nashr etildi?	*A.Qodiriy,
+Cho‘lpon	Ogahiy,Munis	Muqimiy,Zavqiy	Furqat,Amiriy
+4.	“Yulduzlar mangu yonadi” asarida qaysi sport targ‘ib qilinadi?	*Kurash	Futbol	Boks	Tennis
+5.	Qaysi matbuot nashrida badiiy tarjimalar ko‘p e’lon qilinadi? 	*“Kitob dunyosi”	“Mohiyat”	“Hurriyat”	“Toshkent oqshomi”
+6.	Tabiat va inson uyg‘unligi talqin qilingan qissalarni aniqlang.	*“Ot kishnagan oqshom” ,“Oqbo‘yin”	“Sobiq”, “Qoplon”	“Uch ildiz”, “Me'mor”	“Umr chorrahalari”
+7.	«Portret» qaysi tilga oid so‘z va qanday ma'noni bildiradi?	*Fransuz tilida «Tasvir»	Italyan tilida «qoida»	Yunon tilida «Sharh»	Ingliz tilida «Tabiat»
+8.	Iste'dodli yozuvchi Tog‘ay Murodning ilk romani ko‘rsatilgan javobni ayting.	*“Otamdan qolgan dalalar”	“Ot kishnagan oqshom”	“Momo yer qo‘shig‘i”	“Yulduzlar mangu yonadi”
+9.	Nazar Eshonqulning modern asarlarini ko‘rsating.	*“Tun panjaralari”	“Shovqin”.	“Javob”	“Dinozavr”
+10.	Sana chiqarishga asoslangan she'riy usul.	*Ta'rix	Muammo	Muvashshah	Qit'a
+11.	Modern she'riyatda
+ ijod qilayotgan shoirlarni aniqlang.	*A Qutbiddin Faxriyor.	Mirtemir, M.Shayxzoda.	S.Zunnunova, Zulfiya	Cho‘lpon, Usmon Nosir.
+12.	Badiiy asarda voqealar rivojining eng yuksak nuqtasi, syujetning ziddiyatlar keskinlashib, konflikt yaqqol namoyon bo‘ladigan o‘rni qanday nomlanadi?	*Kulminatsiya	Tugun	yechim	Epilog
+13.	Badiiy adabiyot va san'atdagi obrazlilikning fantastika, kulgu va mubolag‘aga asoslangan turi ko‘rsatilgan javobni belgilang.	*Grotesk	Dadaizm	Syurealizm	Invektiva
+14.	Milliy va ma'naviy manqurtlik holati  tuproq va qum ostida qolib ketgan o‘radagi odamlar ruhiyati orqali ifodalangan asar va uning muallifi ko‘rsatilgan javobni toping.	*A.Muxtor “Chodir xayol”	Sh.Hamroev “Suratdagi ayol”	Sh.Holmirzaev “Qadimda bo‘lgan ekan”	N.Otaxonov “Oq bino oqshomlari”
+15.	“Yig‘indi gaplar” maqolasi kimning qalamiga mansub?	*A.Qodiriy	V.Mahmud	A.Fitrat	M.Behbudiy
+16.	Mafkuraxonim qaysi asar qahramoni?	*“Shoirning to‘yi”	“Javob”	“Kuza”	“Urush odamlari”
+17.	“Jajman” hikoyasida qaysi diniy manba tilga olinadi?	 *“Avesto”	“Zabur”	“Tavrot”	“Injil”
+18.	Cho‘lpon taxallusining ma’nosi?	*Tong yulduzi	Ufq	Yulduz	Oy
+19.	“Mezon”qissasida kimlarning hikmatidan namuna berilgan?	*Naqshbandiy,
+Navoiy	Bobur,Ogahiy	Zavqiy,Muqimiy	Nodira,Uvaysiy
+20.	«Yozning yolg‘iz yodgori» kimning asari.	*X.Sultonov	Murod Muhammad Do‘st	A.A'zam	E.A'zamov
+21.	Prolog nima?
+	*Hikoya qilinadigan voqea oldidan beriladigan muqaddima	Hikoya qilinadigan voqea oldidan beriladigan xotima	Asosiy syujet	Badiiy asar tili
+22.	Alisher Navoiyning qaysi asarida tanqidiy mulohazalar ko‘tarilgan?	*“Majolisun nafois”	“Nasoyim ul-muhabbat”	“Arbain”	“Farhod va Shirin”
+23.	“Yana she’rimga” asarida lirik qahramon o‘zini kimga o‘xshatadi?	*Majnun	Bahrom	Farhod	Jamshid
+24.	«Germenevtika» nima?	*talqin nazariyasi	ijodiy metod	falsafiy g‘oya	uslubiy yo‘nalish
+25.	“Tafakkur yog‘dusi” asarining muallifi?	*U. Normatov	A.Rasulov	M.Qo‘shjonov	S.Sodiqq
+26.	Omonimlarga asoslangan she'riy janr.	*Tuyuq	Ruboiy	Muammo	ta'rix
+27.	1-Prezident Islom Karimovning  qaysi asarlarida iste'dodni ulug‘lash, ularni e'zozlash, san'atni qadrlash masalasiga asosiy e'tibor qaratilgan?	*“Adabiyotga e'tibor - ma'naviyatga, kelajakka e'tibor”.	“Bizdan ozod va obod vatan qolsin”.	“O‘zbekiston XXI asr bo‘sag‘asida (xavfsizlikka tahdid va barqarorlik shartlari)”	“O‘zbekiston XXI asrga intilmoqda”
+28.	Sh.Rizaevning “Ma’naviyat manzaralari” asaridagi asosiy masalalar?	*Dramaturgiya va kino	romanchilik	Hikoyachilik muammolari	XX asr she’riyati
+29.	Ijodiy metodlar....
+	*Romantizm, realizm, modernizm	Futurizm, dramatizm,  lirizm	Klassitsizm, sub’ektoviz58m, epizm	Akmeizm, simvolizm, dramatizm
+30.	“Sho‘rodan qolgan odamlar” asarida o‘g‘ilning xatosini anglashiga nima sabab bo‘ldi? 	*Tutqunlik azobi	Ishsizlik	Poraxo‘rlik	Dabdabalik
+31.	Abdulla Oripov ijodining yangi o‘ziga xos qirrasini badiiy yangi xususiyatini aks ettirgan ma'rifiy asarini ko‘rsating.	*“Haj daftari”	“Ishonch ko‘priklari”	“Yillar armoni”	“Yurtim shamoli”
+32.	Tuyuq nimanalarga asoslangan she’riy janr?
+	*Omonimlarga	Sinonimlarga	Antonimlarga 	Sememalarga 
+33.	 “Adabiyot qoidalari” asari muallifi?	*Fitrat	Elbek	Cho‘lpon	 A.Qodiriy
+34.	Iblis nayrangi haqidagi tasvirlar qaysi asarda mavjud?	*“Qora kitob”	“Todd”	“Yolg‘izlik”	“Lolazor”
+35.	 A.Navoiy ijodi haqidagi Oybek mashhur tadqiqotini qachon  yaratgan?	*XX asrning 30-40-yillarida	XX asrning 60-70-yillarida	XX asrning 80-90-yillarida	XX asrning 10-40-yillarida
+36.	“Chig‘atoy gurungi” da qaysi sohaga doir masala ko‘rilgan?	*Adabiyot	Tibbiyot	Harbiy	Kimyo
+37.	Cho‘lpon she’riyatining bosh mavzusini belgilang	*Erk	Sadoqat	Muhabbat	Qanoat
+38.	“Ulug‘ saltanat” asarining muallifi?	*M.Ali	M.Qoriev	X.Davron	T.Qahhor
+39.	“Dunyoning ishlari” qissasidagi hikoyalarni o‘zaro birlashtirib turuvchi obrazni belgilang.	*Ona	Poshsha xola	Folbin ayol	Sepkilli xola
+40.	Bolalar adabiyoti namoyandalarini aniqlang.	*A.Obidjon, T.Adashboev.	Sh.Turdimov, N.Karimov.	S.Ahmad, P.Qodirov.	I.Mirzo, M.Toir.
+41.	Otashqalb shoir obrazini orqali kimlar taqdiriga ishora qilinadi?	*Mafkura qurbonlari	Urush qatnashchilari	Mehnat faxriylari	Harbiy kishilar
+42.	“Tanqid saralamoqdur” maqolasining muallifini belgilang:	*M. Behbudiy	I.G‘aspirali	M.Shermuhammedov	Hoji Muin
+43.	Quyidagi asarlarning qaysi birida tanqidchilikka oid muammolar ko‘tarilgan?	*“Badoyi’ us -sanoe’”	“Hayrat ul-abror”	“Mahbub ul-qulub”	Muhokamat ul-lug‘atayn
+44.	Istiqlol davrida faol ijod qilayotgan qissanavislardan kimlarni bilasiz?	*N.Norqobilov, E.A'zamov, Sh.Bo‘taev, X.Do‘stmuhammad	T.Malik, P.Qodirov, O.yequbov, Sh.Xolmirzaev	. S.Ahmad, A.Qahhor, G‘.G‘ulom, M.Boboev	I.Rahim, N.Fozilov, A.Muxtor, A.Qahhor
+45.	G‘afur G‘ulomning biografik xarakterdagi asarini belgilang.	*“Shum bola”	“Yodgor”	“Bolalik”	“Ko‘klam”
+46.	Sharof Boshbekovning “Temir xotin” asari xarakter xususiyatiga ko‘ra qaysi janrga mansub?	*Drama	Tragediya	Kamediya	Tragikomediya
+47.	Sharq she'riyatida ikki misrali band turi nima deyiladi?	*Bayt	Aruz	Misra	Hijo
+48.	T.Jo‘raev qalamiga mansub asar?	*Ong oqimi. Modern 	Badiiylik bezavol yangilik	Adabiyot nadir	O‘zbek romani 
+49.	Tarixiy qissalar qatori berilgan javobni aniqlang.	*“Jayhun ustida bulutlar”, “O‘tror”	“Hilola”, “Sinchalak”	“Qadrim”, “Zavol”	“Muhabbat”, “Yangi yer”
+50.	“Qadrim” qissasidagi qahramonlarni aniqlang.	*Iskandar, Zulayho, Davron	Saodat, Olim, Rahmat	Iskandar, Barno, Yormat	Jamila, Zuinun, Ali
+51.	Qaysi so‘z “raqsbop qo‘shiq” degan ma’noni bildiradi?	*Ballada	Sonet	Zihof	Epigramma
+52.	Badiiy asarda voqyealar rivojining eng yuqori cho‘qqisi	*kulminatsiya	tugun	ekspozitsiya	yechim
+53.	Xalqaro Mahmud Qoshg‘ariy sovriniga ega bo‘lgan shoirni aniqlang.	*Rauf Parfi	Oydin Hojieva	Tursunoy Sodiqova	Oybek
+54.	Omonimlarga asoslangan she'riy janr.	*Tuyuq	Ruboiy	Muammo	ta'rix
+55.	Asarning nomi ham, bosh qahramon ismi ham ramziy ma'noda yozilgan qissa qaysi javobda ko‘rsatilgan?	*“Oromkursi”	“Istefo”	“Maymun yetaklagan odam”	“So‘ngi o‘q”
+56.	“Avliyo” hikoyasining muallifi	*I.Sulton	U.Hamdam	E.A'zam	O.Muhtor
+57.	«Portret» qaysi tilga oid so‘z va qanday ma’noni bildiradi?	*Fransuz tilida «Tasvir»	Yunon tilida «Sharh	Italyan tilida «qoida”	Ingliz tilida «Tabiat»
+	
+
+58.	Besh misradan iborat bo‘lib, birinchi va uchinchi misralari besh hijoli, ikkinchi, to‘rtinchi va beshinchi misralari yetti hijoli bo‘lishi shart bo‘lgan she'r turi ....... deb nomlanadi.	*Tanka 	Daktil	Motto	Muxammas
+59.	Dramatik asarning eng kichik tarkibiy qismi ko‘rsatilgan javobni toping.	*Parda	Epilog	Ko‘rinish	Kulminatsiya
+60.	Fransuzcha “dadaizm” so‘zi qanday ma’noni bildiradi?	*Yog‘och o‘yinchoq ot	yer ostidagi uy	Madhiya	Bo‘rttirish
+61.	“Kecha va kunduz”romani qaysi fasl tasviridan boshlanadi?	*Bahor	Kuz	Qish	Yoz
+62.	Xalq dostonlari qanday janr?	*Liro-epik	epik	Lirik	dramatik
+63.	“Jajman”asarida qaysi illat qoralangan?	*Nafs	Yolg‘on	G‘iybat	Gumon
+64.	O‘zbek mumtoz adabiyotida ahli dark, ahli idrok, zurafo tushunchalari kimlarga nisbatan qo‘llangan?	*Munaqqidlarga	Voizlarga	Shoirlarga	Barcha adabiyotshunoslarga
+65.	Mashhur tarixiy shaxslar hayoti yoritilgan qissalarni belgilang.	*“Saodat sohili”, “Temur Malik”	“Jangchi Tursun”, “Poyga”	“Nur qidirib”, “O‘ch”	“O‘ch”, “Poyga”
+66.	Cho‘lponshunos olimlar qatorini ko‘rsating	*O.Sharafiddinov, N. Karimov	B.Nazarov, Yu.Sultonov	U.Normatov, A.Qayumov	N.Xudoyberganov, I.Haqqul
+67.	Qissa janri badiiy  adabiyotning qaysi turiga mansub? 	*Epik	Lirik	Dramatik	Liro epik
+68.	Hikoya janriga mansub asarni belgilang.	*“Puankare”	“Kuza”	“Mezon”	“Oromkursi”
+69.	Cho‘qqi soqol qaysi asar qahramoni?	*“Qora kitob”	“Urush odamlari”	“Tun panjaralari”	“Shamolni tutib bo‘lmaydi”
+70.	Hozirgi o‘zbek romanlarini aniqlang.	*“Ozod”, “Shovqin”.	“Tushda kechgan umrlar”, “Jimjitlik”.	“Avlodlar dovoni”, “Ona lochin vidosi”.	“Mezon”, “Ko‘hna dunyo”.
+71.	Ilmiy fantastik qissalar yaratgan ijodkorni aniqlang	*H.Shayxov	Sh.Holmirzaev	S.Ahmad	O.Yoqubov
+72.	Qo‘chqor Norqobil qalamiga mansub qissalarni aniqlang.	*“Kulib tur, azizim”, “Daryo ortidagi yig‘i”	“Chinor”, “Dahshat”	“Ko‘zlaringni ko‘rgali keldim”, “Ov”	“Nafrat”, “O‘pqon”
+73.	“Otam haqida”, “Qatlnoma” asarlari qaysi yozuvchi xotirasiga bag‘ishlangan ?	*Abdulla Qodiriy	Said Ahmad	G‘afur G‘ulom	Abdulla Qahhor
+74.	Allegoriya so‘zining ma’nosi nima?
+	*kinoya	Kulgi 	Achinish 	Go‘zallik 
+75.	O‘zbek adabiyotshunoslari orasida munozaraga sabab bo‘layotgan ijodiy metod 	*Modernizm	Sotsialistik realizm	Simvolizm	Romantizm
+76.	“Fors taronalari” asarining tarjimonini belgilang	*E.Vohidov	A.Oripov	I.Mirzo	Faxriyor
+77.	Epik turga mansub janrlarni aniqlang	*Hikoya, qissa, roman	Qasida, musamman, chiston	Masnaviy, g‘azal, fard	Drama, tragediya komediya
+78.	Shekspir asarlarini tarjima qilgan mutarjimni aniqlang.	*Jamol Kamol	I.G‘afurov	M.Mirzo	S.Said.
+79.	“So‘z so‘ylashda va ulardan jumla tuzishda uzoq andisha kerak”ligini kim ta’kidlagan?	*A.Qodiriy	Cho‘lpon	Fitrat	Elbek
+80.	Bayronning “Manfred”dostonini kim tarjima qilgan?	*R.Parfi	A.Oripov	Faxriyor	A.Said
+81.	O‘zbekiston Qahramoni unvoniga sazovor shoirlar?	*A.Oripov,
+E.Vohidov	R.Parfi,U.Azim	A.Said,I.Mirzo	A.Saidov,
+U.Hamdam
+82.	“Mirrix yulduziga”she’rining muallifi kim?	*Fitrat	Cho‘lpon	Elbek	G‘ayratiy
+83.	“Mehrobdan chayon”romanida “xabba”so‘zini kim ishlatadi?	*Solih maxdum	Anvar	Sultonali	Safar bo‘zchi
+
+84.					
+85.	Qanday she'r tizimi misralardagi bo‘g‘inlar sonining tengligi va bir xil tartibda takrorlanishiga asoslanadi?	*Barmoq	Aruz	Merik	Tonik
+86.	“Obid ketmon” qissasining asosiy mazmuni?	*Qishloq xo‘jaligini kollektivlashtirish	Yakka xo‘jalikni tashkil qilish	Sanoat mavzusini yoritish	Ilm-ma'rifat masalasi
+87.	M.M.Do‘st qaysi qishloq hayotidan qissalar bitgan?	*Galatepa	Uchtepa	To‘ytepa	Beltepa
+88.	“Istiqlol va bugungi adabiyot”monografiyasining muallifini aniqlang	*N.Rahimjonov	N.Jumaxo‘ja	N.Rahmonov	N.Karimov
+89.	“Ijodni anglash baxti “asarining muallifi kim?	*O.Sharafiddinov	U.Normatov	M.Qo‘shjonov	H.Yoqubov
+90.	Essenavis munaqqidlardan kimlarni bilasiz?	*O.Sharafiddinov, M.Qo‘shjonov	B.Akromov, S.Mirvaliev	A. Muxtor, Sh.Xolmirzaev	G‘.G‘ulom, P.Qodirov
+91.	“Kecha va kunduz”romani qaysi fasl tasviri bilan tugallanadi?	*Qish	Kuz	Yoz	Bahor
+92.	I.G‘afurovning jahon adabiyotidan qilgan tarjimalarini belgilang.	*“Uliss”, “Buzrukning kuzi”.	“Iliada”.	“Odisseya”.	“Medeya”.
+93.	“Otamdan xotira” asarining muallifi kim?	*H. Qodiriy	Cho‘lpon	M. Qodiriy	Elbek
+94.	She’riy nutqni tashkil etuvchi bo‘lak (misra)larning teng o‘lchovliligi nima deyiladi?	*Izometriya	Radd	Apostrofa	Vazn
+95.	M.Behbudiy “Kitobat ul atfol” darsligida tanqidchilikning qaysi janri haqida fikr yuritadi?	*Maktub	Taqriz	Ocherk	Portret
+96.	Hayotni badiiy aks ettirish tamoyillar, metod va uslub tushunchalari bilan bevosita bog‘liq tarzda badiiy tafakkur tarzi, metod va uslub kesishgan nuqtada yuzaga keladigan adabiy jarayon bilan bog‘liq kategoriyani ko‘rsating.	*Adabiy yo‘nalish	Adabiy uslub	Adabiy metod	Adabiyot tarixi
+97.	A.Sa’diy: “O‘zbek yoshlari o‘rtasidan adabiy tanqid qalamlari chiqa boshlag‘onini ko‘rsatadi. Bu ham adabiyot bobida 6-nchi yilning ijobiy hollari tomoniga yozila oladir”,- deganda qaysi tanqidchi maqolalarini nazarda tutadi?	*Vadud Mahmud	Rahmat Majidiy	Sotti Husayn	Otajon Hoshim
+98.	Tip nima?
+	*Xarakterning oliy va mukammal formasi	Insonning tasodifiy xususiyatlari	Asardagi bosh qahramon	Hayotiy namunasi mavjud qahramonlar
+99.	Omonimlarga asoslangan she’riy janr	*Tuyuq	Ruboiy	Muammo	ta’rix
+100.	Mansuralar yaratgan ijodkor?	*I.G‘afurov	U.Normatov	A.Rasulov	Q. Yo‘ldoshev
+101.	Eng kichik poetik birlik	*Misra	Bayt	Qit'a	Ruboiy
+102.	Fikrni ixcham shaklda, lo‘nda va aniq ifodalash nima deyiladi?	*Lakonizm	Ko‘chim	Kolliziya	Grotesk
+103.	Murod Muhammad Do‘st asarini toping.	*“Lolazor”	“Degrez o‘g‘li”.	“Ufq”	“Sabo va Samandar”
+104.	“Shovqin” asarining muallifi?	*E.A'zam.	U.Hamdam.	Sh.Bo‘taev	I.Sulton.
+105.	Na ijod na dovruq – istak – najotim,
+Dillarni poklayin nohaq shubhadan:
+Butkul sabil qolsin mening ijodim,
+Faqat ozod bo‘lsin shu xalq shu vatan!
+Misralar muallifi kim?	*Mirzo Kenjabek	Cho‘lpon	U.Nosir	Rauf Parfi
+106.	“Dunyoning ishlari” qissasidagi hikoyalarni o‘zaro birlashtirib turuvchi obrazni belgilang.	*Ona	Poshsha xola	Folbin ayol	Sepkilli xola
+107.	Mavhum tushuncha yoki hodisani konkret narsa orqali ifodalashga asoslangan ko‘chim turi nima deyiladi?	*Allegoriya	Sifatlash	Mubolag‘a	Muvashshah
+108.	Sh.Bo‘taev qalamiga mansub asarni aniqlang.
+	*“Shox”	“Qo‘shchinor chiroqlari”	“Sarob”.	“Tobut”
+109.	“Qora kitob”asarida qaysi san’atlar sintezi kuzatiladi? 	*Musiqa,rassomlik	Me’morlik,raqs	Haykaltaroshlik,naqqoshlik	Raqs,musiqa
+110.	“O‘tmishdan ertaklar “qissasiga qaysi she’r epigraf qilib tanlangan?	*“Munojotni tinglab”	“Na’matak”	“Ko‘ngil”	“O‘rik gullaganda”
+111.	Fitratshunos olimni belgilang	*H.Boltaboyev	N.Rahimjonov	B.Nazarov	N.Rahmonov
+112.	Ota tarbiyasi, ma’naviyati talqini mavjud asar 	 *“Qoyalar ham yig‘laydi”	“Nigoh”	“Panoh”	“So‘roq”
+113.	Qo‘chqor Norqobil ijodidagi yetakchi mavzu?	*Afg‘on urushi	Muhabbat 	Do‘stlik	Mehnat
+114.	“Nazoratchi” (“Sho‘rodan qolgan odamlar”)timsolida qaysi illat qoralanadi?	*Imonsizlik	Nafs bandisi	Tabiat kushandasi	Dangasalik
+115.	Istiqlol davrida yosh qalamkashni rag‘batlantiruvchi qanday fond tashkil etildi?	 *“Ijod”	“Iste’dod”	“Navo”	“Tarona”
+116.	Badiiy adabiyotning turlarini aniqlang.	*Lirik, epik, dramatik	Liro-epik, biografik	G‘azal, qasida	Tragediya, komediya
+117.	“Ulug‘bek xazinasi”romanida Abdulatif qaysi alloma asaridan ta’sirlanadi? 	*N.Ganjaviy	A.Yassaviy	M.Qoshg‘ariy	A.Jomiy
+118.	Kinoqissa yaratayotgan ijodkor	*E.A’zam	N.Norqobilov	N.Eshonqul	Sh.Bo‘taev
+119.	Ertadan kechgacha toatim – Ibodatim so‘zga,
+Itoat ko‘ngilga Muhabbatim gulga
+Hayolim farishtaday
+Kibriyo avjlari sari boshlaydi.
+Misralarining muallifni aniqlang,	*Abduvali Qutbiddin	Omon Matjon	Raf Parfi	Uyg‘un
+120.	A.Qutbiddin 80-90-yillar adabiyotida an'anaviy dostonchilik na'munalaridan barcha jihatlaridan farq qiladigan, zohiriy voqyealar tizimi syujet tizimini tashkil qilmay, balki shoir tafakkuri va his tuyg‘ulari almashuvidan paydo bo‘ladigan ruhoniy yaxlitlik kuzatilgan asar qanday nomlanadi?	*“Izohsiz lug‘at”	“Oqpadar”	“Qora quyosh”	“Ibtido xatosi”
+121.	“Badiiylik asoslari va mezonlari” asarining muallifi?	* B.Sarimsoqov	A.Rasulov	O.Sharafiddinov	S.Sodiqq
+122.	Oybek kimning asarini tarjima qilgan?	*A.Pushkin	L.Tolstoy	M.Sholoxov	S.Esenin
+123.	Voqea fojea bilan tugovchi adabiy janrning nomi?	 *Tragediya	Roman	Komediya	Satira
+124.	Oybek qaysi yozuvchining hayoti va ijodi haqida tadqiqot yaratmagan?
+	*Abdulla Qodiriyning	Cho‘lponning	Fitratning	Hamzaning
+125.	Tog‘ay Murod “Men o‘zbek xalqiga haykal qo‘yaman!” degan so‘zlarini qaysi asarida aytgan?	*“Otamdan qolgan dalalar”	“Ot kishnagan oqshom”	“Oydinda yurgan odamlar”	“Momo yer qo‘shig‘i”
+126.	“Olamni bulduruqqa bostirish”ni xayol qilib yurgan savodsiz Hotam Sho‘ro qaysi asar qahramoni?	*“Lolazor”	“Otamdan qolgan dalalar”	“Iste'fo”	“Orom kursi”
+127.	Chaqaloq  g‘ayritabiiy holati qaysi asarda berilgan?	 *“Qora kitob”	“Tog‘ odami”	“Tun panjaralari”	“Muhabbat”
+128.	“Tanqid faqat tanqidchilikning ko‘rsatkich barmog‘i bilan asarning kamchilik, yutuqlarini ko‘rsatishgina emas, balki uning nozik did, nafosat bilan yaratilganligini ko‘rsatish hamdir”. Ushbu fikrlar qaysi ijodkor qalamiga mansub?	*I.A.Krilov	V.G.Belinskiy  	Mahmudxo‘ja Behbudiy	Fitrat
+129.	Qachon adabiy tanqid nasriy janrlardagi asarlarga e’tiborni qaratdi?	*XX asr  	XV asr 	XVI asr 	XVII asr  
+130.	Alisher Navoiyning «Mezon ul - avzon» asari qaysi
+ vaznga oid ?	*Aruz	barmoq	sarbast	erkin
+131.	Tuyuq nimanalarga asoslangan she’riy janr?	*Omonimlarga	Sinonimlarga	Antonimlarga	Sememalarga
+132.	 “Fojea” ma’nosini anglatuvchi janr? 
+	 *Tragediya	Komediya	Drama 	roman
+133.	“Kompozitsiya” so‘zining lug‘aviy ma’nosi nima?	*Qurilish, tuzib chiqish	Yo‘l, ko‘prik	Chigallik, chalkashlik	Tirikchilik, turmush
+134.	Nazar Eshonqul  hikoyalarini toping?	*“Maymun yetaklagan odam”, “Xaroba shahar suvrati”	“G‘ulom gardish”, “Quyun”	“Chaqmoq izidan”, “Tobut”	“Oq padar, “Qora quyosh”
+135.	N.Karimovning «Cho‘lpon» ma’rifiy romani qaysi metodda yozilgan?	*biografik	psixologik	xronologik	struktural
+136.	“Abdulla Qodiriy romani “O‘tkan kunlar” maqolasining muallifini belgilang:	*Olim Sharafiddinov	Ozod Sharafiddinov	Umarali Normatov	Izzat Sulton
+137.	“Dorur-rohat musulmonlari”
+asarining muallifi kim?	*Gasprinskiy	Fitrat	Furqat	Behbudiy
+138.	So‘z yoki so‘zlar guruhining misra yoki band boshida takrorlanishi nima deyiladi?	*Anafora	Sifatlash	Mubolag‘a	Annotatsiya
+139.	XX asrning 20-yillaridagi teatr tanqidchilarini belgilang:	*M.Shermuhammedov, 
+Hoji Muin	M.Abdurashidxonov, Ibrat	Hamza, S.Ayniy	A.Qodiriy, Cho‘lpon
+140.	B. Nazarovning tanqidchilikka doir asari? 	*O‘zbek adabiy tanqidchiligi 	Adabiy jarayon 	Tarjima	Mumtoz adabiyot 
+141.	Formal maktab namoyandali qatorini ko‘rsating
+	*Tomashevskiy, Eyxenbaum, Vinogardov	Baxtin, Lotman, Xrapchenko	Belinskiy, Dobrolyubov, Baxtin	Barabash, Garin, Jirmunskiy
+142.	“O‘zbek adabiy tanqidi tarixi” (2012 y.) darsligida o‘zbek adabiy tanqidchiligining paydo bo‘lishi va shakllanish bosqichlari qaysi yillarni o‘z ichiga oladi?	*1900-1927	1917-1955	1914-1932	1917-1937
+143.	“Mehrobdan chayon” romani kimning qalamiga mansub ?	*A.Qodiriy	A.Qahhor	Elbek	Fitrat
+144.	“Chig‘atoy gurungi” jamiyatining tarqatib yuborilish sanasini ko‘rsating:	*1922	1925	1932	1927
+145.	Bo‘g‘inlarning misralarda qat’iy tartib bilan kelishi nima?
+	*turoq	vazn	bo‘g‘in	ritm
+146.	U. Normatovning A.Qodiriy ijodiga oid asar?	*Qodiriy mo'jizasi	Otam haqida	O'tkan kunlar	Go'zal yozg‘ichlar
+147.	Lirik tur janrlari.	*G‘azal, ruboiy, muhammas	Roman, poema, g‘azal	Lirik qissa, ballada, doston	Tragediya, povest, musaddas
+148.	“Mening so‘zlarimni bosh-oyog‘ini kesib tashlab, o‘z maqsadingizga yaraqlik bir holga kirgizib, so‘ngra e’tiroz qilishingiz ilmiy bir harakat sanalmaydir”,-degan o‘kinch ohangidagi fikrlar qaysi ijodkor qalamiga mansub?	*Fitrat	H.Olimjon	Sotti Husayn 	Otajon Hoshim
+149.	Yozuvchining xayoliy orzu-umidlarini ifodalovchi badiiy obraz.	*Romantik	Realistik	Fantastik	Ijobiy
+150.	“Badiiylik bezavol yangildik” asarining muallifi kim	*A.Rasulov	U.Normatov	D.Ulug‘ov	D.Quronov
+151.	Istiqlol davrida ijod qilayotgan yosh munaqqidlar?	*D. Quronov, U. Hamdam	O. Sharafiddinov	M.Qo‘shjonov,	I.Sulton
+152.	Tog‘ay Murod asarini toping?	*“Otamdan qolgan dalalar”.	“Munojot”.	“Sarbadorlar”.	“Ko‘hna dunyo”.
+153.	She’riyatda ritm yaratuvchi asosiy elementlar qaysilar?
+	*Bo‘g‘in, turoq, pauza, vazn	Urg‘u, bo‘g‘in, turoq, pauza, 	Bo‘g‘in, vazn, qofiya, mazmun	Faqatgina vazn
+154.	Qofiya ohangdoshlik darajasiga ko‘ra qanday turlarga bo‘linadi?
+	*To‘liq qofiya, och qofiya	Ikki bo‘g‘inli, uch bo‘g‘inli qofiya	Boshida keluvchi va oxirida keluvchi qoiya	Ikkidan orrtiq bo‘g‘inli qofi
+155.	Qahramonlarning so‘ngi taqdiri haqida ma’lumot beruvchi qo‘shimcha qism nima deb ataladi?
+	*Epilog	Prolog 	Konflikt 	syujet
+156.	80-90-yillar o‘zbek dramaturgiyasi namunalari qaysi javobda qayd etilgan?	*A.Ibrohimov “Puch”, T.To‘la “Nodirabegim”, Sh.Holmirzaev “Qora kamar”	Hamid G‘ulom “Bir million fojiasi”, A.Qahhor “Tobutdan tovush”	E.Vohidov “Ruhlar isyoni”, A.Oripov “Hakim va ajal”	A.Oripov “Ranjkom”, H.Muhammad “Xotinlar “gap”idan chiqqan hangoma”
+157.	O.Sharafiddinov qalamiga mansub asar?	*Dovondagi o‘ylar	Badiiy asar biografiyasi	Jadid dramasi	So‘z sehri
+158.	Narsa yoki hodisaga xuddi jonli narsadek murojaat etish asosida yuzaga keluvchi stilistik figura nima deyiladi?	*Apostrofa	Annotatsiya	Mubolag‘a	Sifatlash
+159.	“Sabzazor risolasi” nomli maqola muallifini belgilang:	*M.Shermuhammedov	M. Behbudiy	I.G‘aspirali	Hoji Muin
+160.	Haybar shahri haqidagi ma’lumot qaysi asarda uchraydi?	*“Boqiy darbadar”	“Lolazor”	“Shovqin”	“Bozor”
+161.	“So‘z latofati” asari muallifini toping.	*E.Vohidov	A.Oripov	R.Parfi	O.Yoqubov
+162.	“Bizga ko‘p teatru, ro‘mon kitoblari yozmoq kerakdurkim, bu qarz bir hovuch ziyoli yoshlarimiz ila ahli qalam ustalariga tushadir”. Ushbu fikr qaysi munaqqid qalamiga mansub?	*Cho‘lpon	Fitrat	Sotti Husayn	Otajon Hoshim
+163.	O‘zbek adabiyotshunosligida adabiyot tarixining dastlabki manbalaridan birini belgilang.	*Tazkiralar	Sayohatnomalar	Dostonlar	Qo‘shiqlar
+164.	Muallifning o‘z hayoti haqida izchil hikoya qilishga asoslangan asar  qanday asar deyiladi?	*Avtobiografik	Kundaliklar	Sayohatlar	Qissa
+165.	Istiqlol davrida faol ijod qilayotgan shoirlarni aniqlang.	*Ro‘zimuhammad, Faxriyor	Mirtemir, M.Shayxzoda	S.Zunnunova, Zulfiya	Cho‘lpon, Usmon Nosir
+166.	Lirik tur janrlari	*G‘azal, ruboiy, muxammas	Roman, poema, g‘azal	Lirik qissa, ballada, doston	Tragediya, povest, musaddas
+167.	Hozirgi kunda adabiy jamoatchilikda bahs-munozaraga sabab bo‘lgan romanlarni aniqlang.	*“Ozod”, “Shovqin”.	“Avlodlar dovoni”, “Ona lochin vidosi”.	“Tushda kechgan umrlar”, “Jimjitlik”.	“Mezon”, “Ko‘hna dunyo”.
+168.	Abdulla Qahhor qissalari to‘g‘ri qayd etilgan javobni aniqlang.	*“O‘tmishdan ertaklar”, “Sinchalak”	“Ming bir jon”, “Asror bobo”	“Uloqda”, “Juvonboz	“Netay”, “Vaqt”
+169.	Ijodiy metodlar.
+	*Romantizm, realizm, modernizm	Futurizm, dramatizm,  lirizm	Klassitsizm, sub'ektovizm, epizm	Akmeizm, simvolizm, dramatizm
+170.	“O‘tkan kunlar” romanida Kumush qaysi shoir shaydosi edi? 	*Fuzuliy	Ogahiy	Navoiy	Jomiy
+171.	“Munojotni tinglab”she’rining muallifi kim?	*A.Oripov	A.Qutbiddin	E.Vohidov	A.Said
+172.	Tanqidchilik janrlarini belgilang:	*Adabiy portret, sharh maqola	Taqriz, fard	G‘azal, maktub	Ocherk, novella
+173.	Germenevtika atamasi to‘g‘ri izohlangan qatorni toping?	*Tushuntirish, talqin qilish	Asarni qayta so‘zlash, tanqid qilish	Asardan kamchilik topish, kamchilikni to‘g‘rilash	Asarni tahrir qilish, xatolarini topish
+174.	“Badiiy tafakkur tadriji” asarining muallifi	*U.Hamdam	D.Quronov	A.Rasulov	U.Dolimov
+175.	“Yopishmagan gajaklar” maqolasining muallifini belgilang:	*Fitrat	H.Olimjon	Cho‘lpon	J.Boybo‘latov
+176.	Karimbek Kamiy qaysi adabiy muhit vakili?	*Toshkent	Xorazm
+	Qo‘qon	Buxoro
+177.	 B.Qosimov  asari ko‘rsatilgan qatorni topingkitobi muallifi	*«Milliy uyg‘onish»	“Adabiyot nazariyasi”	“Adabiyotshunoslikka kirish”	“Mumtoz adabiyot”
+178.	“Alximik” romanini o‘zbek tiliga kim tarjima qilgan?	*A.Said	M.Mirzo.	A.Muxtor	Jamol Kamol
+179.	Sh.Bo‘taev qalamiga mansub asarni aniqlang.
+	*“Muyulishdagi uy”, “Shamol o‘yini”	“Qo‘shchinor chiroqlari”,	“Javob”, “Sarob”	“Sinchalak”
+180.	.«Navoiyning qalb daftari» asari muallifi kim?
+	*I. Sulton	M. Qo‘shjonov	O. Sharafddinov	N. Karimov
+181.	A.Sa’diyning: “Garchi ruh va ohang e’tibori bilan usmonlilar ostida bo‘lsa ham, uning o‘ziga xos maxsus til-uslubi bor”,-degan e’tirofi qaysi shoirga qaratilgan edi?	*Cho‘lponga	Fitratga	Elbekka	Avloniyga
+182.	“Go‘zallik haqidagi ong va tasavvurlar zamonlar o‘tishi bilan turli o‘zgarishlarga qarab o‘zgaraturg‘on bir narsadir...” Ushbu fikrlar muallifini toping?	*A.Sa’diy	A.Fitrat	S.Husayn	Cho‘lpon
+183.	Yormat qaysi roman personaji?	*“Qutlug‘ qon”	“Sarob”	“Chinor”	“Ufq”
+184.	1927 yil O‘zbekiston madaniyatchilarining ikkinchi quriltoyida “Cho‘lpon maddohi” aybi bilan zaldan chiqarilgan munaqqidni toping:	*Vadud Mahmud	Fitrat	Sotti Husayn	Otajon Hoshim
+185.	Badiiy asarda voqealar rivojining eng yuqori cho‘qqisi?	*Kulminatsiya	Tugun	Yechim	Ekspozitsiya
+186.	“O‘zbek adabiyotida chig‘atoychilik” maqolasining muallifini belgilang:	*J.Boybo‘latov	Fitrat	Cho‘lpon	H.Olimjon
+187.	«Milliy uyg‘onish» kitobi muallifi kim?	*B.Qosimov	B.Sarimsoqov	N.Karimov	I.Sulton
+188.	“O‘zbek adabiyotshunosligi tarixi”  kitobining muallifi kim?	*B.Valixo‘jaev	B.Sarimsoqov	I.Sulton	A.Hayitmetov
+189.	“Paxta ishi” yoritilgan asarni belgilang.	*“Otamdan qolgan dalalar”.	“Munojoot”.	“Sarbadorlar”.	“Ko‘hna dunyo”.
+190.	“Fitrat o‘zbek adabiyotshunosligining otasi” degan fikr qaysi munaqqidga tegishli?	*Ozod Sharafiddinov	U.Jo‘raqulov	H.Boltaboev	B.Qosimov
+191.	 Prototip nima?		*Asar qahramonining  yaratilishida asos bo‘lgan hayotiy shaxs.
+	Asar qahramonining  yaratilishida asos bo‘lgan xayoliy shaxs.
+	To‘qima qahramon
+	Asarlardan asarlarga ko‘chuvchi qahramon
+192.	Komediya, tragediya, roman
+qaysi turning  janrlari?
+	*Dramatik turning	Lirik	Liro-epik 	Epik
+193.	Ritmik jihatdan she'rdagi bir turoq yoki rukndan so‘ng butun she'riy misralarda. Bir pozitsiyada takrorlanib keluvchi pauzaning alohida turi ............deb yuritiladi.	*Sezura	Strofa	Radif	Pantorifma
+194.	Hozrgi adabiy jarayon haqida muntazam ma'lumotlar beruvchi manbalarni ko‘rsating.	*“O‘zbekiston adabiyoti va san'ati” gazetasi	“Xalq so‘zi” gazetasi	“Hordiq” gazetasi	“Bir safda” jurnali
+195.	“Boqiy darbadar” asarining muallifi?	*I.Sulton	Sh.Bo‘taev	U.Hamdam	E.A'zam
+196.	“Mustaqillik davri o‘zbek she’riyati” asarining muallifi?	*N.Rahimjonov	U.Hamdam	O.Sharafiddinov	U.Normatov
+197.	Qaysi so‘z “oq, oqqa ko‘chirilgan” degan ma'noni bildiradi?	*Bayoz	Band	Ballada	Sonet
+198.	Epik turga oid janrlar qaysi qatorda to‘g‘ri ko‘rsatilgan?	*Qissa, hikoya, roman	Roman, qissa, doston	G‘azal, hikoya, esse	Drama, qissa, masnaviy
+199.	G‘azal, ruboiy, muhammas qaysi adabiy  turning janrlari?
+	*Lirik 	Epik	Drama 	Liro-epik 
+200.	 Fantastik badiiy obraz nima? 	*Yozuvchining xayoliy orzu-umidlarini ifodalaydi	Yozuvchining xayoliy orzu-umidlarini ifodalamaydi	Asarlardan asarlarga ko‘chuvchi qahramon	Asar qahramonining  yaratilishida asos bo‘lgan hayotiy shaxs.
+
+201.	Prezidentimizning qaysi asarlarida adabiyotga e'tibor qaratilgan?	*“Adabiyotga e'tibor - ma'naviyatga, kelajakka e'tibor”.	“O‘zbekiston XXI asr bo‘sag‘asida (xavfsizlikka tahdid va barqarorlik shartlari)”.	. “Bizdan ozod va obod vatan qolsin”.	“O‘zbekiston XXI asrga intilmoqda”.
+202.	“Turk shoiri Ajziy” maqolasining muallifini toping:	*Vadud Mahmud	Fitrat	Sotti Husayn	Otajon Hoshim
+203.	Kulminatsiya nima?
+ 	*Badiiy asarda voqealar rivojining eng yuqori cho‘qqisi	Badiiy asarda muammoli holat 	Badiiy asarda voqealar ketma-ketligi cho‘qqisi	Badiiy asarda voqealar nihoyasi
+204.	“Jadid munaqqidi Vadud Mahmud” kitobini to‘plab, nashrga tayyorlagan adabiyotshunosni ko‘rsating:	*B.Karimov	N.Karimov	H.Boltaboev	U.Normatov
+205.	«Germenevtika» nima?	*talqin nazariyasi	ijodiy metod	falsafiy g‘oya	uslubiy yo‘nalish
+206.	Neologizmlar nima?
+	*Adabiy asar ttilida qo‘llaniladigan yangi so‘zlar	Adabiy asar ttilida qo‘llaniladigan eski so‘zlar	Adabiy asar ttilida qo‘llanil-maydigan so‘zlar	Tarixiy so‘zlar
+207.	“Intiqod – (tanqid) – taqriz kamchiliklarni to‘ldirmoq, tuzuklarini bilmoq-tanimoq uchun bir quroldir”, - degan fikrlar qaysi munaqqid qalamiga mansub	*Vadud Mahmud	Ayn	Fitrat	Rahmat Majidiy
+208.	O‘zbek she'riyatining milliy vazni.	*Barmoq	Aruz	Sarbast	Oq she'r
+209.	M.Behbudiy “Kitobat ul atfol” darsligida tanqidchilikning qaysi janri haqida fikr yuritadi?	*Maktub	Taqriz	Ocherk	Portret
+210.	Qaysi metod vakillar asosan shaklga e’tibor beradi?	*Formal	Sinonimlarga	Antonimlarga 	Sememalarga 
+211.	Asar mazmuninnig qisqacha bayoni nima deb ataladi?	*Annotatsiya	Sharh	So‘z boshi	So‘ngso‘z
+212.	Fitrat kaysi munakkidga javob makola yozgan?	*J.Boybulatov	V. Maxmud	I.Sulton	X. Umirov
+213.	“Ozod” asarining muallifi?	*I.Sulton	U.Hamdam	Sh.Bo‘taev	E.A'zam
+214.	“Qor qo‘ynida lola” hikoyasining muallifi?	*Cho‘lpon	Elbek	Fitrat	Botu
+215.	80-90-yillar o‘zbek dostonchiligi namunalari to‘g‘ri qayd etilgan javobni belgilang.	*A.Oripov “Ranjkom”, E.Shukur “Ibtido xatosi”, M.Yusuf “Qora quyosh”	E.Vohidov “Ruhlar isyoni”, A.Oripov “Jannatga yo‘l”	A.Oripov “Hakim va ajal”, E.Vohidov  “Sirdaryo o‘lani”	O.Matjon “Quyosh yo‘li”, A.Oripov “Hikmat sadolari”
+216.	Fitratning “Adabiyot qoidalari” risolasida qaysi muammoga katta ahamiyat berilgan?	*She'riyat.	Tarix.	Mafkura.	Drama.
+217.	She'rning ritmik-intonatsion va mazmun jihatdan nisbiy mustaqillikka ega bo‘lagi nima deyiladi?	*Band	Misra	Qofiya	Bayoz
+218.	Qoplon va Oymomo qaysi asar qahramoni?	*“Oydinda yurgan odamlar”	“Ot kishnagan oqshom”	“Tog‘ odami”	“Adadsiz azob”
+219.	Erk deya shahid ketgan o‘g‘lonlarning xoki bu,
+Kim noxaq o‘qraysa ham ko‘zlarini o‘yaman.
+Mazkur vatanparvar misralar muallifi kim?	*Mirtemir	Rauf Parfi	Cho‘lpon	U.Nosir
+220.	Gap bo‘laklarining odatdagi tartibini o‘zgartirish asosida yuzaga keluvchi sintaktik usul qanday nomlanadi?	*Inversiya	Iltifot	Katarsis	Muammo
+221.	Fabula nima?	*Badiiy asarning voqeiy asosini tashkil qiladi	Badiiy asarning kul’minatsiyasini tashkil qiladi	Badiiy asarning qoq markazini tashkil qiladi	Badiiy asarning yakunini tashkil qiladi
+222.	“Olamni bulduruqqa bostirish”ni  haqidagi xayol qaysi asarda beriladi?	*“Lolazor”	“Otamdan qolgan dalalar”	“Iste'fo	“Orom kursi”
+223.	Formal metod vakillar asosan nimaga e’tibor beradi?	*Shaklga	fikrga	Kompozitsiyaga	tilga
+224.	She'rda bir xil unlilar takroriga asoslangan ifodaviylikni kuchaytiruvchi vosita berilgan javobni ko‘rsating.	*Assosans	Aruz	Vodevil	Inversiya
+225.	Qahramonlarning asar syujeti voqyealari tamom bo‘lgandan keyingi taqdiri haqida ma'lumot beruvchi qism nima deyiladi (Masalan, “O‘tgan kunlar”dagi)?	*Xotima	Ekspozitsiya	Syujet	Voqyealar tuguni
+226.	Bualoning “She’riy san’at” asarida qaysi yo‘nalishning adabiy-estetik tamoyillari bayon etilgan?	*Klassitsizmning	Romantizmning	Realizmning	Sentimentalizmning
+227.	“Talqin nazariyasi” ma’nosini bildiruvchi atamani belgilang. 	*Germenevtika	Metodologiya 	Biografiya 	Sentimentalizm 
+228.	Badiiy asarda muayyan mazmunni ifodalovchi, g‘oyaviy-badiiy ahamiyatga tafsilot nima deyiladi?	*Detal	Zarb	Inversiya	Leytmotiv
+229.	Badiiy asarda qahramonning o‘ziga qaratilgan, ichida kechadigan, boshqalarga aytilmaydigan nutqi nima deyiladi?	*Ichki monolog	Ta'dil	Epilog	Pauza
+230.	Fitratning “Adabiyot qoidalari” risolasida etibor berilgan muammo?	*She'riyat.	Tarix.	Mafkura.	O‘zlik
+231.	Erkin Vohidovning she’ridagi:
+Hajrda qaddimni dol etting, desam bergay javob,
+Kim qo‘yibdi sevgini qaddi bukilgan chol uchun
+baytida qanday san’at qo‘llangan?	*Kitobat	Inversiya	Ig‘roq	Laff va nashr
+232.	Yangicha talqindagi manqurt qiyofasi yoritilgan qissani aniqlang.	*“Sho‘rodan qolgan odamlar”	“Muyulishdagi uy”	“Sarob”	“Izlayman”
+233.	«Katarsis» atamasi qanday ma'noni anglatadi?	*musaffolik	badiiylik	ruhiyat	g‘oyaviylik
+234.	Kimning  “Ulug‘ hindiy”asarida badiiy adabiyotning ma’naviy-estetik mohiyati yoritib berilgan? 	*Cho‘lponning	Fitratning	Avloniyning	Behbudiyning 
+235.	“Yangi inson” dostonining muallifi kim?	*U.Hamdam	I.Sulton	I.Otamurod	A.Qutbiddin
+236.	Olti stopali daktildan iborat metrik she'r turi .......... deyiladi.	*gekzametr	g‘azal	sonet	epitramma
+237.	Adabiyotshunoslik fanining tarkibiy qismlari.	*Adabiyot nazariyasi, adabiyot tarixi, adabiy tanqid	Adabiyot tarixi, tilshunoslik, folkloristika	matnshunoslik, istoriografiya, lingvistika	Adabiy tanqid, ritorika, logika
+238.	“Yulduzli tunlar “romanida Mirzo Boburning ishlarini munosib davom ettirgan shaxs?	*Humoyun	Hindol	Hind askari	Shayboniy
+239.	 “Ilmi g‘aribani qo‘msab” risolasining muallifi kim?	*A.Rasulov	U.Normatov	N.Karimov	B.Nazarov
+240.	Abdulla Qahhorning “Sinchalak” qissasidagi qahramonlarni belgilang.	*Qalandarov, Saida	Kozim, Jamila	Toshpo‘lat, Mastura	Nuri, Gulnora
+241.	P.Qodirov qalamiga mansub asarni belgilang	 *“Ona lochin vidosi”	“Sarbadorlar”	“Ulug‘bek xazinasi”	“Ufq”
+242.	Ali Qushchi,Qarnoqiy qaysi asar qahramoni?	*“Ulug‘bek xazinasi”	“Sarob”	“Avlodlar dovoni”	“Navoiy”
+243.	Vaqtli matbuotda V.M, Vov., V. imzolarini qo‘llagan munaqqidni toping:	*Vadud Mahmud	A.Sa’diy	Fitrat	Sotti Husayn
+244.	Asar qahramonlarining tashqi qiyofasi, ko‘rinishi, yurish turishi, xatti-harakati, kiyinishi, libosi tasviri nima deb yuritiladi?	*Fabula	Konflikt	Kompozitsiya	Voqyealar tuguni
+245.	Vadud Mahmud kimlarni yoqlab maqolalar yozdi?	*Cho‘lpon, Fitrat	H.Olimjon, G‘.G‘ulom	A.Oripov,E.Vohidov	Oybek,Abdulla Qahhor
+246.	O‘tmish adabiyoti ijodiy tajribalar hosilasi, davrlar o‘tishi bilan ahamiyati va dolzarbligi pasaymasdan keyingi zamonlarga o‘tib kelayotgan qadriyat nima?	*Adabiy an'ana	Adabiy uslub	Adabiy janr	Adabiy yo‘nalish
+247.	“Jahon adabiyoti”jurnalining birinchi bosh muharriri kim?	*O.Sharafiddinov	M.Qo‘shjonov	M.Mirzo	Sh.Rizaev
+248.	Mazmunni izchil kuchaytirib borishga asoslangan stilistik figura ko‘rsatilgan javobni belgilang.	*Gradatsiya	Aruz	Assosans	Iyhom
+249.	Poeziyaning mangu mavzusi?	*Muhabbat	Tarbiya.	Sadoqat.	Ta'lim.
+250.	Dramatik tur janrlar.
+	*Tragediya, komediya, drama	Komediya, tragediya, roman	Hikoya, povest, komediya	Qissa,  novella, drama
+251.	Har bir bandi a-b-a-b-a-b-v-v tarida qat'iy qofiyalanish tartibiga ega sakkiz misradan iborat she'r turi nima deb ataladi?	*Oktava	Musamman	Musaddas	Spondey
+252.	Jahon adabiyotining qaysi mumtoz asarlari sahnaviy talqini tomoshabinlarga taqdim etildi?	*“Donishmand Natan”.	“Neksiya”	“Advokatlik osonmi?”.	“Qirmizi olma”.
+253.	Sent Ekzyuperi asarini tarjima qilgan yozuvchi kim?	*T.Murod	T.Malik	T.Qahhor	T.Adashboev
+254.	She'riy nutqda bir xil undosh tovushlarning takrorlanishiga asoslangan ifodaviylikni kuchaytiruvchi vosita, takrorning fonetik sathdagi ko‘rinishi nima deyiladi?	*Alliteratsiya	Allegoriya	Analogiya	Sifatlash
+255.	XVI-XVIII asrlar yevropa halqlari san'ati va adabiyotida qanday yo‘nalish yuzaga keldi?	*Barokko 	Naturalizm	Realizm	Romantizm
+256.	“Maymun yetaklagan odam” asarining mohiyati?	*Shaxs fojiasini yoritish	Oqibatsizlikni ko‘rsatish	Poraxo‘rlikni qoralash	Zulmkorlikni qoralash
+257.	“Uliss”ni tarjima qilgan mutarjimni aniqlang.	*I.G‘afurov.	M.Mirzo.	Jamol Kamol.	S.Said
+258.	She'riy tizimlarning sodda va ravon usuli, xalqonaligi, tez tushunuvga o‘ng‘ayligi bilan xalq orasida ommalashgan M.Yusuf she'rlari to‘g‘ri qayd etilgan javobni toping.	*“Aldov”, “Kumush”, “Turkman qizi”	“Kumush”, “Xayrlashuv”, “Hikmat sadolari”	“Yur, muhabbat ketdik bu yerdan”,  “Aldov”, “Haqiqat”, “Yuzma-yuz”	“Kokilingni kim kesdi”, “Sirdaryo o‘lani”, “Hozirgi yoshlar”
+259.	“Falak”, “Charxpalak”, “Shaytanat” asarlarining muallifi kim?	*Tohir Malik	Erkin A'zam	Nurali Qobil	. O‘tkir Hoshimov
+260.	O‘zini Tuproqbibi deya atagan ayol kim?	*Kumush	Zaynab	Mohira	Xushro‘y
+261.	 O.Sharafiddinov qaysi asarida istiqlol davri adabiyotini estetik-badiiy tahlil etgan?
+	*“Ijodni anglash baxti”	“Iste’dod jilolari”	“Do‘stlik ko‘prigi”	“Ijod sehri”
+262.	Qaysi shoira nomida Davlat mukofoti ta’sis etilgan?	*Zulfiya	Oydin	Qutlibeka	Nodira
+263.	Abdurauf Fitrat qalamiga mansub asarni belgilang.	*“Hind sayyohining qissasi”	“Guliston”	“O‘tmishdan ertaklar”	“Baxtsiz kuyov”
+264.	Aqrab obrazi qaysi asarda uchraydi?	 *“Otamdan qolgan dalalar”	“Lolazor”	“Bozor”	“Muvozanat”
+265.	Cho‘lponshunos olimlar qatorini ko‘rsating	*O.Sharafiddinov, N Karimov	N.Xudoyberganov, I.Haqqul	U.Normatov, A.qayumov	B.Nazarov, Yu.Sultonov
+266.	“Shoirning to‘yi” asarining muallifi?	*E.A’zam	E.Samandar	Sh.Bo‘taev	X.Do‘stmuhammad
+267.	Metodologiya tadqiqotchiga...	*Ma’lumot 	ilhom	fikr-mulohaza	ilmiy yo‘nalish beradi.
+268.	Romanlar sikli qanday nomlanadi?	*Epopeya	Epos	Dilogiya	Sonet
+269.	Nima badiiylikning birlamchi sharti sifatida ta'kidlanadi?	*Obrazlilik	Sifatlash	Mubolag‘a	Mif
+270.	Dramatik tur janrlar	*Tragediya, komediya, drama	Komediya, tragediya, roman	Hikoya, povest, komediya	Qissa,  novella, drama
+271.	“Saodat sohili” qissasida Boburning hamsuhbati toshkentlik olim kim edi?	*Hofiz Kuykiy	Binoqul	Xo‘ja Afzal	Yusufiy
+272.	Fantast yozuvchilarni aniqlang.	*Hojiakbar Shayxov, Toxir Malik	Abdulla Qahhor, Odil Yoqubov	Said Ahmad, O‘tkir Hoshimov	Samor Nurov, Poyon Ravshanov
+273.	Ziyoli fojiasi talqin qilingan hikoya?	*“Puankare”	“Kelin”	“Jajman”	“Yozuvchi”
+274.	“Boqiy darbadar”romanida Muborak kishi etikdo‘zga nima deydi?	*Turgin va badar ketgin!	O‘tir	Qasam ich	Sukut saqla
+275.	Turg‘unlik yillarining mashaqqatlari yoritilgan asarni belgilang.	*“Otamdan qolgan dalalar”.	“Munojot”.	“Sarbadorlar”.	“Ko‘hna dunyo”.
+276.	Asar qahramonining  yaratilishida asos bo‘lgan hayotiy shaxs.	*Prototip	Personaj	 Proobraz	Tip
+277.	Rauf Parfi kimni ustozi hisoblagan?	*A.Vodiliy	U.Nosir	E.Vohidov	G‘.G‘ulom
+278.	“Yulduzli tunlar”romanida tilga olingan qimmatbaho tosh	*Ko‘hinur olmosi	Kumush	Zumrad	Yoqut
+279.	Remboning “U sarson izlardi o‘zini o‘zi” misrasi epigraf qilib olingan hikoya va uning muallifini belgilang.	*N.Otaxonov “Uchinchi qavatdagi sariq deraza”	N.Eshonqul “Xaroba shahar surati”	N.Eshonqul “Maymun yetaklagan odam”	Sh.Xolmirzaev “Qadimda bo‘lgan ekan”
+280.	 Badiiy asarlar nimaning o‘rganish ob’ekti?	*Adabiy-badiiy tanqidning	Adabiy jarayonning 	Tarjimachi-likning	Mumtoz adabiyotning
+281.	“Mezon”asarida qaysi mumtoz dostonning yangi talqini beriladi?	 *“Layli va Majnun”	“Farhod va Shirin”	“Saddi Iskandariy”	“Sab’ai sayyor”
+282.	Prezidentimiz kimni avliyo deya e’tirof etgan?	*A.Navoiy	Bobur	Ogahiy	H.Boyqaro
+283.	“Tog‘lar qulayotganda yoxud mangu qayliq nolasi” asarida qaysi jonzot qismati yoritilgan?	*Yo‘lbars	Tulki	Sirtlon	Bo‘ri
+284.	“Adabiyot nadir” asarining muallifi?	*Cho‘lpon	Elbek	Oybek	G‘ayratiy
+285.	N.Rahimjonov asarini belgilang.	*Istiqlol va bugungi adabiyot	O‘zbek adabiy tanqidchiligi	Adabiy tanqid janrlari	O‘zbek mumtoz adabiyotshunosligi 
+286.	Mirzo Bobur obrazini yaratgan adiblar.	*P.Qodirov,
+X.Sultonov	Sh.Xolmirzaev,O‘.Hoshimov	S.Ahmad,
+G‘.G‘ulom	T.Malik,
+A.Muxtor
+287.	Erkin A'zamning asarlarini belgilang.	*“Atoyining tug‘ilgan yili”, “Shovqin”.	“Javob”, “Dunyoning ishlari”.	“Dinozavr”.	“Tilsim saltanati”.
+288.	“Cho‘lpon” ma’rifiy romani kimning qalamiga mansub?	*N.Karimov	N.Rahmonov	B.Qosimov	B.Karimov
+289.	Yozuvchining xayoliy orzu-umidlarini ifodalovchi badiiy obraz.	*Romantik	Realistik	Fantastik	Ijobiy
+290.	Tarjimashunoslik ishlariga qachondan e’tibor kuchaydi?	*istiqlol yillari	70,80 yillar	80,90 yillar	60,70 yillar
+291.	“Tanqid saralamoqdir” maqolasi kimning qalamiga mansub?	*M.Behbudiy	Cho‘lpon	Fitrat	Elbek
+292.	“Kecha va kunduz” romanida epaqa laqabli qahramon kim?	*Miryoqub	Noib to‘ra	Akbarali	Domla
+293.	“Muqaddas”, “Billur qandillar” qissalarining muallifi kim?	*Odil Yoqubov	Said Ahmad	Pirimqul Qodirov	G‘afur G‘ulom
+294.	X.To‘xtaboev haqidagi adabiy portret qanday nomlanadi?	*“G‘aroyib saltanat”	“Ardoqli adib”	“Chorak asr hamnafas”	“Otam haqida”
+295.	“Ozod”romanida qaysi shoirlar nomi tilga olinadi?	*A.Oripov,Mirtemir	Faxriyor,
+Sh.Rahmon	U.Nosir,Elbek	Nodira,
+Zebunniso
+296.	Milliy an’ana talqin qilingan asarni aniqlang	*“Oydinda yurgan odamlar”	“Oqbo‘yin”	“Shamol o‘yini”	“Yolg‘izlik”
+297.	Adabiyot va san’at masalalarini yoritadigan jurnal?	*“Sharq yulduzi”	“Xalq ta’limi”	“Yosh kuch”	“Saodat”
+298.	Mirzo Ulug‘bek haqida badiiy asar yaratgan ijod korlar? 	*M.Shayxzoda,
+O.Yoqubov	A.Muxtor,
+T.Malik	M.Osim,
+M.Ismoiliy	H.Shayxov,
+X.To‘xtaboev
+299.	“ Tog‘lar qulayotganda yoxud mangu qayliq nolasi”asarining muallifi?	*Ch.Aytmatov	M.Avezov	O‘.Sulaymonov	M.Shoxonov
+300.	Qaysi qissada hayvon vafosi tasvirlangan? 	*“Ovul oralagan bo‘ri”	“Qadrim”	“Muqaddas”	“Yolg‘izlik”
