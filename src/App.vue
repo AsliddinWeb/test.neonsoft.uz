@@ -14,12 +14,12 @@ const mobileOpen = ref(false)
         <div class="flex items-center justify-between h-16">
           <router-link to="/" class="flex items-center gap-3 group">
             <div class="relative">
-              <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-brand-600 via-indigo-600 to-purple-600 text-white grid place-items-center font-extrabold shadow-lg shadow-indigo-500/20 group-hover:shadow-indigo-500/40 transition">IL</div>
+              <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-brand-600 via-indigo-600 to-purple-600 text-white grid place-items-center font-extrabold shadow-lg shadow-indigo-500/20 group-hover:shadow-indigo-500/40 transition">XIU</div>
               <div class="absolute -bottom-1 -right-1 w-3.5 h-3.5 rounded-full bg-amber-400 border-2 border-white"></div>
             </div>
             <div class="leading-tight">
-              <div class="font-extrabold text-slate-800 text-[15px] tracking-tight">"ILHOM" mukofoti</div>
-              <div class="text-[11px] text-slate-500 font-medium">Xalqaro Innovatsion Universiteti</div>
+              <div class="font-extrabold text-slate-800 text-[15px] tracking-tight">Xalqaro Innovatsion Universiteti</div>
+              <div class="text-[11px] text-slate-500 font-medium">Onlayn baholash va so'rovnoma tizimi</div>
             </div>
           </router-link>
 
@@ -89,7 +89,7 @@ const mobileOpen = ref(false)
 
     <footer class="border-t border-slate-200/70 bg-white/50">
       <div class="max-w-6xl mx-auto px-4 py-5 flex flex-col md:flex-row items-center justify-between gap-2 text-xs text-slate-500">
-        <div>© {{ new Date().getFullYear() }} Xalqaro Innovatsion Universiteti — "ILHOM" mukofoti</div>
+        <div>© {{ new Date().getFullYear() }} Xalqaro Innovatsion Universiteti</div>
         <div class="flex items-center gap-3">
           <span class="flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>Tizim faol</span>
         </div>
