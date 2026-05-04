@@ -44,9 +44,12 @@ lerna-debug.log*
 coverage
 *.lcov
 
-# Database
-data/
+# Database (server)
+/data/
 *.db
+
+# Local reference materials (manba .docx va rasm — kerakmas serverga)
+sorovnoma/
 *.db-journal
 *.db-wal
 *.db-shm

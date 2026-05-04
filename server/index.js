@@ -33,6 +33,15 @@ CREATE TABLE IF NOT EXISTS settings (
   key TEXT PRIMARY KEY,
   value TEXT NOT NULL
 );
+
+CREATE TABLE IF NOT EXISTS surveys (
+  id TEXT PRIMARY KEY,
+  type TEXT NOT NULL,
+  name TEXT,
+  data TEXT NOT NULL,
+  at TEXT NOT NULL
+);
+CREATE INDEX IF NOT EXISTS idx_surveys_type ON surveys(type, at DESC);
 `)
 
 const seed = db.prepare('INSERT OR IGNORE INTO settings (key, value) VALUES (?, ?)')
@@ -120,6 +129,48 @@ app.delete('/api/results/:id', requireAdmin, (req, res) => {
 
 app.delete('/api/results', requireAdmin, (req, res) => {
   db.prepare('DELETE FROM results').run()
+  res.json({ ok: true })
+})
+
+// === SURVEYS ===
+
+// Submit (public)
+app.post('/api/surveys', (req, res) => {
+  const { id, type, name, data } = req.body || {}
+  if (!id || !type || !data) return res.status(400).json({ error: 'invalid_payload' })
+  if (!['talaba', 'oqituvchi'].includes(type)) return res.status(400).json({ error: 'invalid_type' })
+  try {
+    db.prepare('INSERT INTO surveys (id, type, name, data, at) VALUES (?, ?, ?, ?, ?)').run(
+      id, type, name || null, JSON.stringify(data), new Date().toISOString()
+    )
+    res.json({ ok: true, id })
+  } catch (e) {
+    res.status(500).json({ error: 'db_error', message: e.message })
+  }
+})
+
+// Admin list
+app.get('/api/surveys', requireAdmin, (req, res) => {
+  const type = req.query.type
+  const rows = type
+    ? db.prepare('SELECT * FROM surveys WHERE type = ? ORDER BY at DESC').all(type)
+    : db.prepare('SELECT * FROM surveys ORDER BY at DESC').all()
+  res.json(rows.map(r => ({
+    id: r.id, type: r.type, name: r.name,
+    data: JSON.parse(r.data), at: r.at
+  })))
+})
+
+// Admin delete one
+app.delete('/api/surveys/:id', requireAdmin, (req, res) => {
+  db.prepare('DELETE FROM surveys WHERE id = ?').run(req.params.id)
+  res.json({ ok: true })
+})
+
+// Admin clear (optionally by type)
+app.delete('/api/surveys', requireAdmin, (req, res) => {
+  if (req.query.type) db.prepare('DELETE FROM surveys WHERE type = ?').run(req.query.type)
+  else db.prepare('DELETE FROM surveys').run()
   res.json({ ok: true })
 })
 

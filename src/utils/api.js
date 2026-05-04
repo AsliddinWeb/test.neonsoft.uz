@@ -56,6 +56,12 @@ export const apiListResults = () => req('/results')
 export const apiDeleteResult = (id) => req('/results/' + encodeURIComponent(id), { method: 'DELETE' })
 export const apiClearResults = () => req('/results', { method: 'DELETE' })
 
+// Surveys
+export const apiSubmitSurvey = (payload) => req('/surveys', { method: 'POST', body: JSON.stringify(payload) })
+export const apiListSurveys = (type) => req('/surveys' + (type ? `?type=${encodeURIComponent(type)}` : ''))
+export const apiDeleteSurvey = (id) => req('/surveys/' + encodeURIComponent(id), { method: 'DELETE' })
+export const apiClearSurveys = (type) => req('/surveys' + (type ? `?type=${encodeURIComponent(type)}` : ''), { method: 'DELETE' })
+
 // Helpers
 export function uid() {
   return Date.now().toString(36) + Math.random().toString(36).slice(2, 8)
